@@ -1,3 +1,4 @@
+
 localStorage.removeItem("inventario");
 
 const respuestasGenerales = [
@@ -268,6 +269,13 @@ const respuestasFranco = [
   "la maldicion donde todos tus compañeros se visten de Astolfo"
 ];
 
+const respuestasPleper = [
+  "una placa de energia pizoelectrica renovable que no es una placa de energia, ni es pizoelectrica ni es renovable",
+  "una plantilla UP FEET que fue imprimida en marzo de 2025 y tiene olor al pie de Lopa",
+  "una carpeta de campo donde no se registro ninguna tarea",
+  "la maldicion donde tu repo del github no puede pasar de los 65 commits",
+];
+
 
 
 const alias = {
@@ -278,7 +286,8 @@ const alias = {
   raul: ["raul", "victor"],
   isidro: ["isidro", "ichi", "isidrost", "stabille"],
   lopa: ["lopa", "lopachon", "copachon"],
-  franco: ["franco", "garabato"]
+  franco: ["franco", "garabato"],
+  pleper: ["pleper"]
 };
 
 let inventario = [];
@@ -314,8 +323,11 @@ function truequear() {
   } else if (alias.lopa.some(nombre => lower.includes(nombre))) {
     respuesta = elegirAleatorio(respuestasLopa);
   } else if (alias.franco.some(nombre => lower.includes(nombre))) {
-    respuesta = elegirAleatorio(Franco);
+    respuesta = elegirAleatorio(respuestasFranco);
+  } else if (alias.pleper.some(nombre => lower.includes(nombre))) {
+    respuesta = elegirAleatorio(respuestasPleper);
   } else {
+  
     respuesta = elegirAleatorio(respuestasGenerales);
   }
 
