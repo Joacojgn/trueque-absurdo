@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Trueque Absurdo</title>
+  <link rel="stylesheet" href="sitio.css">
+</head>
+<body>
+  <h1 id="titulo">💸 Trueque Absurdo</h1>
+  <p>Ofrecé cualquier cosa. Recibí algo peor.</p>
+
+  <input type="text" id="objeto" placeholder="Ej: una media, un servo, tu dignidad">
+  <button onclick="truequear()">Truequear</button>
+
+  <div id="resultado"></div>
+
+  <h2>📦 Mis trueques</h2>
+  <ul id="inventario"></ul>
+
+  <h2>🎨 Colección inútil</h2>
+<ul id="coleccion"></ul>
+
+<button id="btnDevolver" onclick="mostrarDevolucion()" disabled>Devolver el trueque</button>
+<p id="devolucion" style="margin-top:10px; color:#ff6666;"></p>
+
+  <footer id="footer">Este sitio no se hace responsable por los trueques realizados.</footer>
+
+  <audio id="sonidoTrueque" src="https://www.soundjay.com/button/sounds/button-16.mp3" preload="auto"></audio>
+  <audio id="sonidoError" src="https://www.soundjay.com/button/sounds/button-10.mp3" preload="auto"></audio>
+
+  <script src="sitio.js"></script>
+</body>
+</html>
