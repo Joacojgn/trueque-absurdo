@@ -2,8 +2,8 @@
 localStorage.removeItem("inventario");
 
 const respuestasGenerales = [
-  "una tostadora cuántica rota",
-  "un servo que grita cuando lo mirás",
+"una tostadora cuántica rota",
+  "un armario que grita cuando lo mirás",
   "una licencia para llorar en público",
   "un LED que solo prende si estás triste",
   "una caja que contiene otra caja",
@@ -22,10 +22,10 @@ const respuestasGenerales = [
   "un espejo que te muestra tus decisiones dudosas",
   "una planta que te grita si no la regás",
   "una caja de recuerdos que no son tuyos",
-  "la fruta gomu gomu",
+  "la fruta gomu gomu pero solo te estira las pestañas y perdes la capacidad de nadar",
   "una app de citas donde todos son de tu mismo sexo",
   "una licencia de conducir expirada en 1992",
-  "un cigarrillo",
+  "un cigarrillo que se enciende con magma",
   "una tostadora que imprime memes",
   "una lámpara que te juzga con su luz",
   "una bufanda que te susurra tus errores",
@@ -208,7 +208,7 @@ const respuestasNacho = [
   "una caja fuerte con un solo pistacho adentro",
   "una canción dedicada al pistacho",
   "el documento que te corona como Lord Pistacho Garcia, rey del reino pistacho",
-  "trueque justo, Tobi",
+  "trueque justo, Tobi Pagano",
   "un rite con la materia de sicoloni desaprobada",
   "un dispenser de pistachos"
 ];
@@ -216,11 +216,11 @@ const respuestasNacho = [
 const respuestasMauro = [
   "un disco de Babasonicos",
   "una foto de Ciro Martinez",
-  "un dibujo de Ace de One Piece",
-  "un alfajor Gula",
+  "el manga de One Piece, pero todos los personajes son Ace y mueren en Marineford",
+  "la maldicion donde todos los kioskos a los que vas no tienen el alfajor Gula",
   "una partida de Haxball maldita",
-  "un chicle con un tatuaje del Indio",
-  "un carnet falso con la edad de 18 años",
+  "un chicle de menta con un tatuaje del Indio que se borra a los 2 segundos",
+  "un carnet falso que te devuelve a tus 17 años",
   "una compu que nunca puede instalar el Football Manager",
   "trueque justo, Gustavo Cerati",
   "un rite con la materia de Pagano desaprobada"
@@ -228,14 +228,13 @@ const respuestasMauro = [
 
 const respuestasTejeda = [
   "una foto de Yabli disfrutando otra rosca de pascua",
-  "un soldador que solo suelda con crema pastelera",
   "trueque justo, Fresh de Subway Surfers"
 ];
 
 const respuestasBaza = [
   "un libro donde todas las frases empiezan con 'Vas a'",
-  "yerba Taragüi",
-  "la maldición que hace que nunca te saques más de un 9",
+  "un mate que siempre tiene una gota de saliva en la bombilla",
+  "la maldición que hace que nunca te saques más de un 6",
   "una beca universitaria para estudiar gastronomía aeroespacial"
 ];
 
@@ -244,7 +243,7 @@ const respuestasRaul = [
   "el ave sagrada de Peru",
   "una carta de Milei diciendo Peru es clave",
   "una estatua de un inca",
-  "ceviche podrido",
+  "un plato de ceviche podrido",
 ];
 
 const respuestasIsidro = [
@@ -257,14 +256,13 @@ const respuestasIsidro = [
 
 const respuestasLopa = [
   "una cinta metrica que le resta 23 centimetros a todo",
-  "el superpoder de sumarle 23 centimetros a todos",
-  "un futuro donde la copachon es la mayor copa de futbol del mundo",
+  "el superpoder de sumarle 23 centimetros a todo",
+  "un futuro donde la copachon es la peor copa de futbol del mundo",
 ];
 
 const respuestasFranco = [
   "trueque justo, Franco Colapinto",
-  "un carro de formula 1 roto",
-  "un dron que solo vuela cuando comes facturas",
+  "un dron que solo vuela si tenes un carro de formula 1",
   "unos scones secos y rancios sin el toque del gordo",
   "la maldicion donde todos tus compañeros se visten de Astolfo"
 ];
@@ -273,7 +271,7 @@ const respuestasPleper = [
   "una placa de energia pizoelectrica renovable que no es una placa de energia, ni es pizoelectrica ni es renovable",
   "una plantilla UP FEET que fue imprimida en marzo de 2025 y tiene olor al pie de Lopa",
   "una carpeta de campo donde no se registro ninguna tarea",
-  "la maldicion donde tu repo del github no puede pasar de los 65 commits",
+  "la maldicion donde tu repositorio de Github no puede pasar de los 65 commits",
 ];
 
 
@@ -376,18 +374,20 @@ function mostrarColeccion() {
 function mostrarDevolucion() {
   const reglas = [
     "No se puede devolver porque el objeto ya se encariñó con vos.",
-    "Tu objeto fue enviado a otra dimensión.",
-    "La tostadora que gestiona devoluciones está ocupada llorando.",
-    "Solo se aceptan devoluciones en martes 13 con luna llena.",
-    "El objeto fue absorbido por el protocolo de trueque eterno.",
-    "Necesitás una licencia interdimensional para devolverlo.",
+    "Al sentir disgusto por el, lo rompiste internamente. No se puede devolver.",
+    "Alguna vez leiste el manga de Gantz? Tenes que morir y conseguir 100 puntos matando aliens para devolver el objeto.",
+    "Solo se aceptan devoluciones los dias 30 y 31 de Febrero.",
+    "No se pueden devolver objetos que hayan estado mas de 0.0000000000001 segundos en tu poder.",
+    "Necesitás un formulario de devolución firmado por el objeto.",
     "El objeto ya publicó un tweet sobre vos, no hay vuelta atrás.",
     "La devolución requiere un sacrificio emocional que no estás listo para hacer.",
-    "Ciclo del trueque: truequeas algo - recibes algo peor - lo truequeas - recibes algo peor",
-    "El trueque es sagrado, acaso no te importa los sentimientos del objeto truequeado? Das asco"
+    "La unica forma de devolver el objeto es truequearlo. Truequealo hasta que salga algo que te guste.",
+    "El objeto se ha vuelto consciente y no quiere volver.",
+    "El objeto decidió que prefiere vivir en tu casa.",
   ];
 
   const mensaje = reglas[Math.floor(Math.random() * reglas.length)];
   const devolucion = document.getElementById("devolucion");
   devolucion.innerText = mensaje;
 }
+
